@@ -3,6 +3,8 @@
 Home page implementation for the Golestan website, built with **React** and **Tailwind CSS**.  
 This repository currently contains the **homepage UI**, and it is designed to be extended with additional sections and pages over time.
 
+## Live Demo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a08eeb9a-4a35-439d-9470-e348d19ea3cb/deploy-status)](https://app.netlify.com/projects/golestan-react/deploys)
 ---
 
 ## Tech Stack
@@ -39,5 +41,3 @@ Typical structure:
 ```bash
 npm install
 
-# Live Demo Of Golestan Website (React + Tailwind)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a08eeb9a-4a35-439d-9470-e348d19ea3cb/deploy-status)](https://app.netlify.com/projects/golestan-react/deploys)
