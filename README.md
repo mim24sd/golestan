@@ -38,3 +38,6 @@ Typical structure:
 ### 1) Install dependencies
 ```bash
 npm install
+
+# Live Demo Of Golestan Website (React + Tailwind)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a08eeb9a-4a35-439d-9470-e348d19ea3cb/deploy-status)](https://app.netlify.com/projects/golestan-react/deploys)
