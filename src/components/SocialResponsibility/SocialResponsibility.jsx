@@ -18,11 +18,11 @@ const SOCIAL_DATA = {
     image: {
         src: mehdiHospitalImage,
         alt: "Mahdi Hospital",
-        className: "h-[344px] md:w-[395px] w-full",
+        className: "block h-auto w-[320px] md:w-[320px] lg:w-[395px] max-w-none",
     },
 };
 
-const WRAPPER_CLASS = "relative";
+const WRAPPER_CLASS = "relative overflow-x-hidden overflow-y-hidden";
 const HERO_CLASS = "flex h-[650px] w-full items-center justify-center bg-[#105153]";
 const HERO_INNER_CLASS = "mx-auto text-center";
 const FA_TITLE_CLASS = "text-lg text-[#D5ECE1]";
@@ -35,7 +35,7 @@ const SUBTITLE_CLASS = "pt-3 text-[#BCBEC0]";
 const GOLD_STRIP_CLASS = "h-[20px] w-full bg-[#E9D69F]";
 const DIVIDER_WRAPPER_CLASS = "py-5 px-3";
 const DIVIDER_LINE_CLASS = "h-[2px] w-full bg-[#DFE1E3]";
-const FLOAT_IMAGE_WRAPPER_CLASS = "absolute w-full top-[400px] md:left-1/2 md:top-[570px] z-10 md:-translate-x-1/2 md:-translate-y-1/2";
+const FLOAT_IMAGE_WRAPPER_CLASS = "absolute flex justify-center top-[460px] md:top-[400] left-1/2 md:top-[570px] z-10 -translate-x-1/2 md:-translate-y-1/2";
 const PARAGRAPH_WRAPPER_CLASS = "pt-16";
 
 export default function SocialResponsibility() {

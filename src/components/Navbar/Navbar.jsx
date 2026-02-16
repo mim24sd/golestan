@@ -14,10 +14,10 @@ const NAV_LINKS = [
 
 const NAV_CLASS = "fixed top-0 w-full overflow-visible border-b border-white/20 bg-[#262626] p-4 lg:px-5 lg:pt-8 lg:pb-5 text-[#AFB2B4] z-200";
 const CONTAINER_CLASS = "mx-auto max-w-6xl px-4";
-const INNER_CLASS = "flex items-center justify-center gap-30 lg:gap-14 flex-col-reverse md:flex-col lg:flex-row px-2";
+const INNER_CLASS = "flex items-center justify-center gap-30 md:gap-14 flex-col-reverse md:flex-col lg:flex-row px-2";
 const MOBILE_MENU_WRAPPER_CLASS = "flex self-start";
 const LOGO_LINK_CLASS = "relative lg:h-0 w-[170px] shrink-0 overflow-visible";
-const LOGO_IMG_CLASS = "absolute lg:bottom-0 lg:h-[105px] lg:w-[170px] lg:translate-y-[97px]";
+const LOGO_IMG_CLASS = "absolute md:bottom-[-50px] lg:bottom-0 lg:h-[105px] lg:w-[170px] lg:translate-y-[97px]";
 const LIST_CLASS = "hidden md:flex items-center justify-center";
 const LIST_ITEM_CLASS = "flex items-center";
 const LINK_CLASS = "inline-block px-5 py-3 transition hover:text-white";
