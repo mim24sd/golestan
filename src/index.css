@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+    --animate-hero-drop-text: hero-drop-text 1000ms ease-out forwards;
+    --animate-hero-drop-image: hero-drop-image 1500ms ease-out forwards;
+    --animate-about-slide-in-rtl: about-slide-in-rtl 1000ms ease-out forwards;
+    --animate-about-reveal-center: about-reveal-center 1000ms ease-out forwards;
+
+    @keyframes hero-drop-text {
+        0% { opacity: 0; transform: translateY(-28px); }
+        100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes hero-drop-image {
+        0% { opacity: 0; transform: translateY(-28px); }
+        100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes about-slide-in-rtl {
+        0% { opacity: 0; transform: translateX(32px); }
+        100% { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes about-reveal-center {
+        0% { opacity: 0; transform: scaleX(0.6) scaleY(0.85); }
+        100% { opacity: 1; transform: scaleX(1) scaleY(1); }
+    }
+}
