@@ -1,9 +1,9 @@
 import Paragraph from "../base/Paragraph.jsx";
 
-import customersImage from "../../assets/images/Home/customers.png";
-import productsImage from "../../assets/images/Home/products.png";
-import humanCapitalsImage from "../../assets/images/Home/human-capitals.png";
-import salesCentersImage from "../../assets/images/Home/sales-centers.png";
+import customersImage from "../../assets/images/home/customers.png";
+import productsImage from "../../assets/images/home/products.png";
+import humanCapitalsImage from "../../assets/images/home/human-capitals.png";
+import salesCentersImage from "../../assets/images/home/sales-centers.png";
 
 const ABOUT_SECTIONS = [
     {

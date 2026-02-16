@@ -1,4 +1,4 @@
-import parallaxImg from "../../assets/images/Home/background.png";
+import parallaxImg from "../../assets/images/home/background.png";
 
 const SECTION_CLASS = "h-[250px] w-full bg-center bg-cover bg-no-repeat md:bg-fixed";
 const SPACER_CLASS = "h-[250px] w-full";
